@@ -25,7 +25,7 @@ if __name__ == '__main__':
     csv_database = create_engine(engine_name)
     bse_map = read_bse_static_map()
 
-    yrlist = [1998 + x for x in range(1)]
+    yrlist = [1998 + x for x in range(21)]
     ret_df_list =[]
     price_data_fields = ['bse_returns']
     id_col_list = ['co_code', 'company_name', 'co_stkdate']
