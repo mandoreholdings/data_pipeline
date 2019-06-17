@@ -21,7 +21,7 @@ def read_bse_static_map():
 
 if __name__ == '__main__':
 
-    engine_name = 'sqlite:////'+ os.path.abspath('../') + '/CMIE_data/csv_database.db'
+    engine_name = 'sqlite:////'+ os.path.abspath('../') + '/rawdata/csv_database.db'
     csv_database = create_engine(engine_name)
     bse_map = read_bse_static_map()
 
